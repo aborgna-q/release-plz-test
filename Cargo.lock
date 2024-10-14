@@ -3903,9 +3903,9 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 
 [[package]]
 name = "release-plz"
-version = "0.3.90"
+version = "0.3.99"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cbc99d76b26f2b8a5c5dc68c8848b07d1c12834a8b3580bb02692d598e94c6e6"
+checksum = "758f6af67f280d9f5f0d8f79ad8b5bf1947de897f14f533996f009df69f9c675"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
@@ -3923,7 +3923,7 @@ dependencies = [
  "release_plz_core",
  "reqwest",
  "schemars",
- "secrecy 0.8.0",
+ "secrecy 0.10.3",
  "serde",
  "serde_json",
  "tokio",
@@ -3943,9 +3943,9 @@ dependencies = [
 
 [[package]]
 name = "release_plz_core"
-version = "0.26.2"
+version = "0.30.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f561fdf8d82e6c980ceb2b12afa2af3cfe61d006e2cb96710f01fb3d1c67ba60"
+checksum = "924e5e42ee6af0247a1526bfda5f3bb193952b05ab78b77ab6e5026566d338d9"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
@@ -3961,6 +3961,7 @@ dependencies = [
  "git_cmd",
  "http",
  "ignore",
+ "itertools",
  "lazy_static",
  "next_version",
  "parse-changelog",
@@ -3970,7 +3971,7 @@ dependencies = [
  "reqwest",
  "reqwest-middleware",
  "reqwest-retry",
- "secrecy 0.8.0",
+ "secrecy 0.10.3",
  "serde",
  "serde_json",
  "strip-ansi-escapes",
